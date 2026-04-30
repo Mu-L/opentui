@@ -101,7 +101,7 @@ Next steps:
 2. Build the packages: bun run build
 3. Commit the changes: git add -A && git commit -m "Release v${version}"
 4. Push the commit: git push
-5. Tag the release after the commit: git tag v${version}
+5. Tag the release after the commit: git tag v${version} -m "Release v${version}"
 6. Push the tag to trigger the release workflow: git push origin v${version}
   `)
 
